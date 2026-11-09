@@ -1,0 +1,35 @@
+[09-Sep-2026 02:48:46 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:23 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:28 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[09-Sep-2026 02:49:38 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/antathad/public_html/index.php on line 701
+[13-Sep-2026 15:09:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/antathad/public_html/config.php:8
+Stack trace:
+#0 /home/antathad/public_html/config.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/antathad/public_html/config.php on line 8
+[13-Sep-2026 15:09:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/antathad/public_html/config.php:8
+Stack trace:
+#0 /home/antathad/public_html/config.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/antathad/public_html/config.php on line 8
+[18-Oct-2026 07:55:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/antathad/public_html/config.php:8
+Stack trace:
+#0 /home/antathad/public_html/config.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/antathad/public_html/config.php on line 8
+[08-Nov-2026 06:15:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/antathad/public_html/config.php:8
+Stack trace:
+#0 /home/antathad/public_html/config.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/antathad/public_html/config.php on line 8
+[09-Nov-2026 03:06:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/antathad/public_html/config.php:8
+Stack trace:
+#0 /home/antathad/public_html/config.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/antathad/public_html/config.php on line 8

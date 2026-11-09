@@ -1,0 +1,526 @@
+:root {
+    --forest: #0d4135;
+    --green: #1f725d;
+    --lime: #cbec62;
+    --cream: #f6f5ef;
+    --paper: #fffefb;
+    --ink: #17251f;
+    --muted: #718079;
+    --line: #dfe7e2;
+    --shadow: 0 15px 35px rgba(13, 65, 53, 0.09);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: var(--ink);
+    font-family: Arial, sans-serif;
+    background: var(--cream);
+    min-height: 100vh;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.site-header {
+    width: min(1180px, calc(100% - 40px));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    text-decoration: none;
+}
+
+.brand-mark {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    border-radius: 13px;
+    background: var(--forest);
+}
+
+.brand-text strong,
+.brand-text small {
+    display: block;
+}
+
+.brand-text strong {
+    color: var(--forest);
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.brand-text small {
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 10px;
+}
+
+.top-nav {
+    display: flex;
+    gap: 22px;
+}
+
+.top-nav a {
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.top-nav a:hover,
+.top-nav a.active {
+    color: var(--green);
+}
+
+.back-button {
+    padding: 10px 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 9px;
+    background: var(--forest);
+}
+
+.back-button:hover {
+    background: var(--green);
+}
+
+/* HERO DENGAN FOTO SEKOLAH */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 55px max(20px, calc((100% - 1180px) / 2));
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, rgba(13, 65, 53, 0.85), rgba(31, 114, 93, 0.75)),
+        url('../images/sma4.jpg') center/cover no-repeat;
+    z-index: -1;
+}
+
+.hero-content {
+    max-width: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+.eyebrow {
+    margin: 0;
+    color: var(--lime);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.eyebrow.dark {
+    color: var(--green);
+}
+
+.hero h1 {
+    margin: 11px 0 13px;
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1.03;
+    letter-spacing: -3px;
+}
+
+.hero h1 span {
+    color: var(--lime);
+}
+
+.hero p:last-child {
+    max-width: 560px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.hero-symbol {
+    width: 150px;
+    height: 150px;
+    display: grid;
+    flex: 0 0 auto;
+    place-content: center;
+    color: var(--forest);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 34px;
+    background: var(--lime);
+    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.16);
+    transform: rotate(7deg);
+    position: relative;
+    z-index: 1;
+}
+
+.hero-symbol span {
+    font-size: 55px;
+    line-height: 1;
+}
+
+.hero-symbol strong {
+    margin-top: 8px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* CONTENT */
+
+.content {
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 62px 0;
+}
+
+.section-heading {
+    margin-bottom: 27px;
+}
+
+.section-heading h2 {
+    margin: 9px 0 0;
+    color: var(--forest);
+    font-size: clamp(28px, 4vw, 42px);
+    letter-spacing: -1.5px;
+}
+
+/* HEADMASTER */
+
+.headmaster-card {
+    display: flex;
+    gap: 25px;
+    padding: 28px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: white;
+    box-shadow: var(--shadow);
+    margin-bottom: 50px;
+}
+
+.headmaster-photo {
+    flex: 0 0 150px;
+}
+
+.photo-placeholder {
+    width: 150px;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    border-radius: 16px;
+    background: var(--forest);
+}
+
+.headmaster-info h3 {
+    margin: 0 0 6px;
+    color: var(--forest);
+    font-size: 22px;
+}
+
+.headmaster-info .nip {
+    margin: 0 0 16px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.headmaster-info blockquote {
+    margin: 0;
+    padding: 16px;
+    color: var(--ink);
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.8;
+    border-left: 4px solid var(--green);
+    background: #f3f8f4;
+    border-radius: 9px;
+}
+
+/* TEACHER GRID */
+
+.teacher-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+    margin-bottom: 50px;
+}
+
+.teacher-card {
+    display: flex;
+    gap: 14px;
+    padding: 19px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: white;
+    box-shadow: var(--shadow);
+}
+
+.teacher-avatar {
+    flex: 0 0 70px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 14px;
+    background: var(--forest);
+}
+
+.teacher-info h3 {
+    margin: 0 0 6px;
+    color: var(--forest);
+    font-size: 16px;
+}
+
+.teacher-info .subject {
+    margin: 0 0 4px;
+    color: var(--green);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.teacher-info .nip {
+    margin: 0;
+    color: var(--muted);
+    font-size: 11px;
+}
+
+/* ACHIEVEMENT GRID */
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+    margin-bottom: 50px;
+}
+
+.achievement-card {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: white;
+    box-shadow: var(--shadow);
+}
+
+.achievement-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.achievement-card h3 {
+    margin: 0 0 8px;
+    color: var(--forest);
+    font-size: 17px;
+}
+
+.achievement-card .level {
+    margin: 0 0 4px;
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.achievement-card .year {
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.achievement-card .desc {
+    margin: 0;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* EMAIL CARD */
+
+.email-card {
+    padding: 35px;
+    text-align: center;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: white;
+    box-shadow: var(--shadow);
+}
+
+.email-icon {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.email-card h3 {
+    margin: 0 0 12px;
+    color: var(--forest);
+    font-size: 22px;
+}
+
+.email-card > p {
+    margin: 0 0 20px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.email-link {
+    display: inline-block;
+    padding: 14px 28px;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 12px;
+    background: var(--forest);
+    margin-bottom: 16px;
+}
+
+.email-link:hover {
+    background: var(--green);
+}
+
+.email-note {
+    margin: 0;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+
+.site-footer {
+    padding: 27px 20px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 11px;
+    text-align: center;
+    background: var(--forest);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+    .teacher-grid,
+    .achievement-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .site-header {
+        width: calc(100% - 32px);
+    }
+
+    .top-nav {
+        display: none;
+    }
+
+    .hero {
+        padding: 48px 20px;
+        min-height: 400px;
+    }
+
+    .hero-symbol {
+        width: 110px;
+        height: 110px;
+        border-radius: 25px;
+    }
+
+    .hero-symbol span {
+        font-size: 42px;
+    }
+
+    .content {
+        width: calc(100% - 32px);
+        padding: 43px 0;
+    }
+
+    .headmaster-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headmaster-info blockquote {
+        border-left: none;
+        border-top: 4px solid var(--green);
+    }
+
+    .teacher-grid,
+    .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .teacher-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .brand-text small {
+        display: none;
+    }
+
+    .back-button {
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+
+    .hero {
+        min-height: 350px;
+    }
+
+    .hero-symbol {
+        display: none;
+    }
+
+    .headmaster-card,
+    .email-card {
+        padding: 22px;
+    }
+}
