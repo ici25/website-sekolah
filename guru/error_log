@@ -1,0 +1,45 @@
+[09-Sep-2026 00:37:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'WHERE' in /home/antathad/public_html/guru/pendaftaran.php:90
+Stack trace:
+#0 /home/antathad/public_html/guru/pendaftaran.php(90): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/pendaftaran.php on line 90
+[09-Sep-2026 00:40:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_file' in 'INSERT INTO' in /home/antathad/public_html/guru/pendaftaran.php:70
+Stack trace:
+#0 /home/antathad/public_html/guru/pendaftaran.php(70): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/pendaftaran.php on line 70
+[12-Sep-2026 03:09:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[12-Sep-2026 03:16:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[12-Sep-2026 03:16:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[12-Sep-2026 03:16:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[12-Sep-2026 04:36:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[12-Sep-2026 04:42:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
+[02-Oct-2026 14:01:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nama_lengkap' in 'SET' in /home/antathad/public_html/guru/profil.php:21
+Stack trace:
+#0 /home/antathad/public_html/guru/profil.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/antathad/public_html/guru/profil.php on line 21
